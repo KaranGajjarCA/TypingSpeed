@@ -1,0 +1,42 @@
+.AppLogo {
+    font-family: "Allerta Stencil", SansSerif !important;
+}
+
+.card {
+    width: 50%;
+    height: 130px;
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.card .WriteContent {
+    font-family: "Times New Roman", Times, serif !important;
+    position: relative;
+    color: gainsboro;
+}
+
+.CardContent .WriteContent:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #2c3e50;
+    left: 5px;
+    top: 53px;
+    -webkit-animation: animated-text 0.5s infinite;
+    -moz-animation: animated-text 0.5s infinite;
+    -o-animation: animated-text 0.5s infinite;
+    animation: animated-text 0.5s infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 25px;
+        background: red
+    }
+    to {
+        width: 25px;
+        background: blue
+    }
+}
