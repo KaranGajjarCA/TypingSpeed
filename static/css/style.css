@@ -1,0 +1,57 @@
+.paper {
+    height: 90px;
+    width: 80px;
+    color: #2c3e50 !important;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.count-paper {
+    height: 60px;
+    width: 60px;
+    color: #2c3e50 !important;
+}
+
+.ErrorBox .count-paper {
+    color: #eb4d4b !important;
+}
+
+.count-paper h4{
+    font-size: 30px;
+}
+
+.count-paper h6{
+    font-size: 12px;
+}
+.card.writtencontent{
+    width: 50%;
+    font-family: "Times New Roman", Times, serif !important;
+    max-width: 50%;
+    min-width: 50%;
+    height: auto;
+}
+
+.icon-bar.settings{
+    right: 5%;
+}
+.icon-bar.settings svg{
+    font-size: 2.5rem;
+}
+.icon-bar.settings .count-paper{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

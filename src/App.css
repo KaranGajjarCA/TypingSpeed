@@ -17,14 +17,11 @@
 .CardContent .WriteContent:after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 2px;
+    width: 2px !important;
+    height: 35px;
     background: #2c3e50;
-    left: 5px;
-    top: 53px;
-    -webkit-animation: animated-text 0.5s infinite;
-    -moz-animation: animated-text 0.5s infinite;
-    -o-animation: animated-text 0.5s infinite;
+    left: 0px;
+    top: 10px;
     animation: animated-text 0.5s infinite;
 }
 
