@@ -138,7 +138,7 @@ class App extends React.Component {
             }
         } else {
             console.log(e.type)
-            if (e.type != 'click') {
+            if (e.type !== 'click') {
                 this.setState({characterTyped: this.state.characterTyped + "<span class='wrong'>" + charTyped + "</span>"})
                 this.setState({errors: this.state.errors + 1});
             }
